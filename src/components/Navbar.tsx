@@ -15,10 +15,10 @@ export default function Navbar() {
           
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <a href="#" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#2d5a3d]">Accueil</a>
-              <a href="#" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#2d5a3d]">Services</a>
-              <a href="#" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#2d5a3d]">Blog</a>
-              <a href="#" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#2d5a3d]">Contact</a>
+              <a href="/" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#2d5a3d]">Accueil</a>
+              <a href="/Messages" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#2d5a3d]">Services</a>
+              <a href="/Blog" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#2d5a3d]">Blog</a>
+              <a href="/ContactPage" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#7aca96]">Contact</a>
               <a href="#" className="bg-[#ffd700] text-[#1a472a] px-4 py-2 rounded-md text-sm font-medium hover:bg-[#f0c800]">
                 Connexion
               </a>
